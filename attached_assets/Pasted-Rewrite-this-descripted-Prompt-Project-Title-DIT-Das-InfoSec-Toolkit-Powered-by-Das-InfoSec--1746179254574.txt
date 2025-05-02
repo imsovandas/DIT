@@ -1,0 +1,99 @@
+Rewrite this descripted Prompt
+
+"Project Title: DIT - Das InfoSec Toolkit
+Powered by Das InfoSec
+Developed by Sovan Das
+Goal: Build a simple, User friendly, futuristic, modern UI, dark-themed, Sci-Fi, Hacking Style lightweight cybersecurity web application for general users to perform essential security tasks. All tools must be intuitive, fast, and mobile-friendly.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+I. Homepage Structure
+
+1. Hero Section
+   Large Animated Text Logo: "DIT", Indian Flag Colour Up Saffron, Middle White, Down Green.
+   Under Logo Text Title:" Das InfoSec Toolkit"
+   Subtitle: "Essential  Cybersecurity toolkit for your digital safety."
+   Tagline: "Developed by Das InfoSec."
+   Dark background with subtle animations (glitch/circuit board)
+2. Grid-Based Tools Section
+   Responsive grid (3x4):
+3. Password Generator
+4. Password Strength Checker
+5. URL Scanner (VirusTotal API)
+6. Encryption/Decryption & Hashing
+7. WHOIS Domain Lookup
+8. File Hash Checker
+9. DNS Leak/WebRTC Leak Test
+10. User-Agent Fingerprint Viewer
+
+---
+
+3. About Section
+
+> Das InfoSec is committed to building a cyber-aware India. SCA is a free and accessible security toolbox to help individuals understand, protect, and empower their digital presence. Designed with love, logic, and some late-night chai by Sovan Das.
+
+4. Contact Section
+   Email contact or form
+   Telegram/WhatsApp (optional)
+   Email: [imsovandas@gmail.com](mailto:imsovandas@gmail.com)
+5. Social Media Links
+   Instagram: @sovanking
+   LinkedIn, GitHub, YouTube, Twitter
+6. Footer
+
+> "© 2025 Das InfoSec. All rights reserved."
+
+---
+
+II. Core Functional Tools (MVP)
+
+1. Strong Password Generator
+   Options: length, symbols, uppercase, lowercase, numbers
+   Copy to clipboard
+2. Password Strength Checker
+   Meter + estimated crack time
+   Feedback on password quality
+3. URL Scanner
+   Uses VirusTotal API (Free Tier Key)
+   Input URL > Shows scan results + threat detection
+4. Encryption/Decryption & Hashing
+   Algorithms: AES, RSA, Base64, SHA-256, MD5
+   Key generation + data encode/decode + hash output
+5. WHOIS Domain Lookup
+   Free WHOIS API or public WHOIS query parser
+   Domain info: registrar, expiration, creation
+6. File Hash Checker
+   Upload file > get MD5/SHA256 > compare with open-source threat DB
+7. DNS Leak/WebRTC Leak Test
+   JS-based WebRTC IP exposure test + public DNS resolver info
+8. User-Agent Fingerprint Viewer
+   Shows browser, OS, device, and tracking data using JS libraries
+
+---
+
+III. Stack Recommendation
+Whole Layout based on HTML, Javascript, Python.
+Frontend: Next.js + Tailwind CSS (Dark Mode enabled)
+Backend: Node.js + Express (or serverless functions)
+APIs: VirusTotal (Free Tier), IPAPI (Free),
+WHOIS public, JS-based tests for WebRTC/DNS
+-------------------------------------------
+
+IV. Versioning Plan
+Phase 1: MVP Launch
+Core 12 Tools
+Homepage UI fully functional
+No login required
+Phase 2: Enhanced Features
+Add rate limiting and error handling
+Secure API usage
+Phase 3 (Optional): User Accounts & Analytics
+Track usage stats
+Save encrypted notes/hashes for signed-in users
+-----------------------------------------------
+
+V. Design Principles
+Mobile-first responsive layout
+Minimalist but futuristic dark UI
+Tooltips, clear icons, fast load
+No ads, no bloat
+Note: Prioritize performance and data privacy. Avoid unnecessary data logging. Keep the user experience smooth and empowering."
